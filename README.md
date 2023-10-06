@@ -1,5 +1,7 @@
 This repo is to facilitate experiments of deep learning.
 
+Most implementations here are based on some common dependencies so that they can be modified easily.
+
 It is composed of:
 - datasets: fast dataset loading and preprocessing
 - logging: better logging tools
