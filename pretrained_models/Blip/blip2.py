@@ -16,13 +16,13 @@ import torch.distributed as dist
 import torch.nn.functional as F
 
 import pretrained_models.utils.dist_utils as dist_utils
-from .utils.dist_utils import download_cached_file
-from .utils.utils import is_url
-from .utils.logger import MetricLogger
+from ..utils.dist_utils import download_cached_file
+from ..utils.utils import is_url
+from ..utils.logger import MetricLogger
 
 from .base_model import BaseModel
 from .qformer import BertConfig, BertLMHeadModel
-from .eva_vit import create_eva_vit_g
+from ..EVA.eva_vit import create_eva_vit_g
 
 from transformers import BertTokenizer
 
